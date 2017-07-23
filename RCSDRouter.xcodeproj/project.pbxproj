@@ -12,6 +12,7 @@
 		26D18AC01F24676D001AB2E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26D18ABE1F24676D001AB2E9 /* Main.storyboard */; };
 		26D18AC21F24676D001AB2E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26D18AC11F24676D001AB2E9 /* Assets.xcassets */; };
 		26D18AC51F24676D001AB2E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26D18AC31F24676D001AB2E9 /* LaunchScreen.storyboard */; };
+		26F945931F247A6E00051E87 /* RCSDRouterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F945921F247A6E00051E87 /* RCSDRouterManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		26D18AC11F24676D001AB2E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		26D18AC41F24676D001AB2E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		26D18AC61F24676D001AB2E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26F945921F247A6E00051E87 /* RCSDRouterManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RCSDRouterManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		26D18AB91F24676D001AB2E9 /* RCSDRouter */ = {
 			isa = PBXGroup;
 			children = (
+				26F945911F247A6E00051E87 /* RCSDRouterManager */,
 				26D18ABA1F24676D001AB2E9 /* AppDelegate.swift */,
 				26D18ABC1F24676D001AB2E9 /* ViewController.swift */,
 				26D18ABE1F24676D001AB2E9 /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				26D18AC61F24676D001AB2E9 /* Info.plist */,
 			);
 			path = RCSDRouter;
+			sourceTree = "<group>";
+		};
+		26F945911F247A6E00051E87 /* RCSDRouterManager */ = {
+			isa = PBXGroup;
+			children = (
+				26F945921F247A6E00051E87 /* RCSDRouterManager.swift */,
+			);
+			path = RCSDRouterManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				26D18ABD1F24676D001AB2E9 /* ViewController.swift in Sources */,
+				26F945931F247A6E00051E87 /* RCSDRouterManager.swift in Sources */,
 				26D18ABB1F24676D001AB2E9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -301,6 +313,7 @@
 				26D18ACB1F24676D001AB2E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
